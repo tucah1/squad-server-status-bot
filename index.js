@@ -13,14 +13,17 @@ const getServerInfo = (server) => {
 			ip = '172.93.180.8'
 			port = 9010
 		} else if (server === 'occupation') {
-			;(ip = '172.93.180.9'), (port = 9010)
+			ip = '172.93.180.9'
+			port = 9010
 		} else if (server === 'invasion') {
-			;(ip = '172.93.180.64'), (port = 27165)
+			ip = '172.93.180.64'
+			port = 27165
 		} else if (server === 'laboratory') {
 			ip = '172.93.180.54'
 			port = 27165
 		} else if (server === 'event') {
-			;(ip = '172.93.180.6'), (port = 9010)
+			ip = '172.93.180.6'
+			port = 9010
 		} else {
 			reject('server-name')
 		}
