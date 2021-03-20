@@ -1,16 +1,16 @@
 {
-  "name": "squad_server_status_bot",
-  "version": "1.0.0",
-  "description": "Discord bot that checks status of specified Squad server.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "niX",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0",
-    "gamedig": "^3.0.0"
-  }
+	"name": "squad_server_status_bot",
+	"version": "1.0.0",
+	"description": "Discord bot that checks status of specified Squad server.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index"
+	},
+	"author": "niX",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^12.5.1",
+		"dotenv": "^8.2.0",
+		"gamedig": "^3.0.0"
+	}
 }
